@@ -1,0 +1,252 @@
+html, body {
+
+  width: 100%;
+  height: 100%;
+}
+
+/*division background and fonts*/
+#sb {
+	background-color: #0A2463;;
+	height: 100%;
+	width: 100%;
+	color: #E2E2E2;
+	height:500px;
+	text-align: center;
+	padding-top: 30px;
+	margin-bottom: 10px;
+}
+
+.jumbotron{
+	background-color: #FB3640;
+	/*padding-top: -20px;*/
+	margin-top: 30px;
+
+}
+
+h1 {
+	font-size:10vw;
+}
+
+p{
+	font-size: 20px;
+	/*font-size:5vw;*/
+	font-family: 'K2D', sans-serif;
+}
+
+#ps{
+	font-size: 2vw;
+}
+
+#quote{
+	font-size: 2vw;
+	margin-top: 30px;
+
+}
+
+img {
+    /*border-radius: 50%;*/
+   /* height: 250px;
+    width:  180px;*/
+    padding: 0px;
+    margin-bottom: 0px;
+    width: 15%;
+    height: auto;
+
+}
+.aphoto{
+	background-color: #fff;;
+	height: 100%;
+	width: 100%;
+	color: #605F5E;
+	height:500px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 5px;
+}
+
+.certs{
+	background-color: #fff;;
+	height: 100%;
+	width: 100%;
+	color: #605F5E;
+	height:500px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 5px;
+}
+
+#card1{
+	background-color: #FB3640;;
+	height: 100%;
+	width: 100%;
+	color: black;
+	height:500px;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 5px;
+}
+
+#footcard2 {
+	color: black;
+}
+
+#footjum{
+	margin-bottom: 0px;
+	background-color: #0A2463;
+	color: #E2E2E2;
+}
+
+/*navbar*/
+body {margin:0;}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: 'Playfair Display SC', serif;
+  z-index: 10;
+
+
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+
+}
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+
+
+/*extra small devices*/
+            @media only screen and (max-width: 575.98px){
+            	#quote{
+		font-size: 7vw;
+		margin-top: 30px;
+		padding-top: 0px;
+		height: auto;
+		/*margin-bottom: 10px;*/
+
+}
+	.myphoto{
+	/*background-color: #fff;;*/
+	height: 50%;
+	width: 45%;
+	color: #605F5E;
+	text-align: center;
+	/*padding-top: 30px;*/
+/*	padding-bottom: 20px;*/
+}
+.jumbotron{
+	background-color: #FB3640;
+	padding-top: -20px;
+	margin-top: 100px;
+
+}
+	#subt{
+		font-size: 13px;
+	}
+
+	#ps{
+	font-size: 4vw;
+}
+#textcap1{
+	font-size: 4vw;
+
+}
+.imgcaps{
+	/*opacity: .1;*/
+	/*z-index: -10;*/
+	width: 30%;
+}
+#webd{
+	font-size: 6vw;
+}
+#jbs{
+	font-size: 5vw;
+}
+#textcap2{
+	font-size: 4vw;
+
+}
+#textcap3{
+	font-size: 4vw;
+
+}
+.b{
+	margin-top: 10px;
+	padding-bottom: 10px;
+}
+footer{
+	padding-top: -50px;
+	margin-top: 10px;
+}
+.jumbotron{
+	background-color: #FB3640;
+	/*padding-top: -20px;*/
+	margin-top: 100px;
+
+}
+}
+            } 
+            /*end of small devices*/
+
+            /*small devices*/
+            @media only screen and (min-width: 576px) and (max-width: 767.98px){
+
+            }
+            /*end of small devices*/
+
+            @media only screen and (max-width: 767.9px) {
+                
+            }
+
+            @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+               
+            }
+
+            @media only screen and (min-width: 992px) and (max-width: 1199.98px){
+
+            }
+
+            @media only screen and (min-width: 1200px){
+
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.lightest-bg { background-color: #d2d2d2; }
+.lightest-txt { color: #d2d2d2; }
+.middle-bg { background-color: #737373; }
+.middle-txt { color: #737373; }
+.darkest-bg { background-color: #505050; }
+.darkest-txt { color: #505050; }*/
